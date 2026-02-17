@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Outer Glow / Background Circle -->
+    <path
+        android:fillColor="#1AFFE100"
+        android:pathData="M100,100m-90,0a90,90 0,1 1,180 0a90,90 0,1 1,-180 0" />
+        
+    <path
+        android:fillColor="#33FFE100"
+        android:pathData="M100,100m-70,0a70,70 0,1 1,140 0a70,70 0,1 1,-140 0" />
+
+    <!-- Brain Half Left -->
+    <path
+        android:fillColor="#FFEA00"
+        android:pathData="M100,60c-25,0 -45,15 -45,40c0,15 8,25 20,32c-3,8 -2,18 2,23c8,0 15,-10 18,-15c2,0 3,0 5,0l0,-80Z" />
+        
+    <!-- Brain Half Right -->
+    <path
+        android:fillColor="#FFF176"
+        android:pathData="M100,60c25,0 45,15 45,40c0,15 -8,25 -20,32c3,8 2,18 -2,23c-8,0 -15,-10 -18,-15c-2,0 -3,0 -5,0l0,-80Z" />
+
+    <!-- Speed Lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:strokeLineCap="round"
+        android:pathData="M40,110L20,110M45,130L25,130M160,110L180,110M155,130L175,130" />
+</vector>

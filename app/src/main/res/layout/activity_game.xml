@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <com.antigravity.brainsprint.views.GameView
+        android:id="@+id/gameView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageButton
+        android:id="@+id/pauseButton"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:src="@android:drawable/ic_media_pause"
+        android:tint="@color/white_pure" />
+
+    <LinearLayout
+        android:id="@+id/pauseOverlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#DD000000"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:text="PAUSED"
+            android:textColor="@color/primary_yellow"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/resumeButton"
+            style="@style/PremiumButton"
+            android:layout_width="200dp"
+            android:layout_height="64dp"
+            android:layout_marginBottom="16dp"
+            android:text="RESUME" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/exitButton"
+            style="@style/PremiumButton"
+            android:layout_width="200dp"
+            android:layout_height="64dp"
+            android:backgroundTint="@color/surface"
+            android:text="EXIT" />
+    </LinearLayout>
+</RelativeLayout>

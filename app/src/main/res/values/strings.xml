@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BrainZap</string>
+    <string name="start_game">START ZAPPING</string>
+    <string name="high_score">Best Zap: %1$d</string>
+    <string name="game_over">ZAPPED!</string>
+    <string name="retry">RETRY</string>
+    <string name="score">Score: %1$d</string>
+    <string name="best_score">Best: %1$d</string>
+</resources>

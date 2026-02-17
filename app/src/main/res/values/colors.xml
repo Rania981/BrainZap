@@ -1,0 +1,26 @@
+<resources>
+    <!-- Background & Surface -->
+    <color name="background">#0F0F0F</color>
+    <color name="surface">#1E1E1E</color>
+    
+    <!-- Primary Branding: Vibrant Yellow & White -->
+    <color name="primary">#FFEA00</color>
+    <color name="primary_yellow">#FFEA00</color>
+    <color name="primary_light_yellow">#FFF176</color>
+    <color name="white">#FFFFFF</color>
+    <color name="white_pure">#FFFFFF</color>
+    <color name="white_muted">#B0B0B0</color>
+    
+    <!-- Text Colors -->
+    <color name="text_high_emphasis">#FFFFFF</color>
+    <color name="text_medium_emphasis">#A0A0A0</color>
+    
+    <!-- Game Elements -->
+    <color name="circle_target">#FFEA00</color>
+    <color name="circle_obstacle">#FFFFFF</color>
+    
+    <!-- Status Colors -->
+    <color name="success_gold">#FFEA00</color>
+    <color name="danger_red">#FF3D00</color>
+    <color name="warning_amber">#FFC400</color>
+</resources>

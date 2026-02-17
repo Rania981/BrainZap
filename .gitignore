@@ -1,0 +1,21 @@
+*.iml
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+/.idea/caches
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+# Ignore build folders in all modules
+build/
+app/build/
+# Ignore generated files
+bin/
+gen/
+out/
+# Gradle cache
+.gradle/

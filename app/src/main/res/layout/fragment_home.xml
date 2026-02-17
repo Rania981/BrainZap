@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="32dp"
+    android:background="@color/background">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.2">
+        <View
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_brain_logo"
+            android:backgroundTint="@color/primary_yellow" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/ic_brain_logo"
+            android:tint="@color/primary_yellow"
+            android:alpha="0.9" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="BRAIN\nZAP"
+            android:textColor="@color/primary_yellow"
+            android:textSize="56sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:lineSpacingExtra="-8dp"
+            android:letterSpacing="0.1" />
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="2dp"
+            android:layout_marginTop="24dp"
+            android:background="@color/white_muted"
+            android:alpha="0.3" />
+
+        <TextView
+            android:id="@+id/highScoreText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="Best Zap: 0"
+            android:textColor="@color/white_pure"
+            android:textSize="20sp"
+            android:alpha="0.6" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/startButton"
+            style="@style/PremiumButton"
+            android:layout_width="240dp"
+            android:layout_height="72dp"
+            android:layout_marginTop="48dp"
+            android:backgroundTint="@color/primary_yellow"
+            android:text="START ZAPPING"
+            android:textColor="@color/background"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:letterSpacing="0.2"
+            app:cornerRadius="36dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="ZAP TARGETS FAST"
+            android:textColor="@color/white_pure"
+            android:textSize="10sp"
+            android:alpha="0.3"
+            android:letterSpacing="0.2" />
+
+    </LinearLayout>
+
+</RelativeLayout>

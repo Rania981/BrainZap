@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:text="SETTINGS"
+        android:textColor="@color/primary_yellow"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_history_item"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Sound Effects"
+                android:textColor="@color/white_pure"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/soundSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:thumbTint="@color/primary_yellow"
+                android:trackTint="@color/white_muted" />
+        </RelativeLayout>
+
+        <!-- Sound Theme Choice Container -->
+        <LinearLayout
+            android:id="@+id/soundThemeContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone"
+            android:paddingHorizontal="8dp"
+            android:paddingBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Sound Theme"
+                android:textColor="@color/white_muted"
+                android:textSize="14sp"
+                android:layout_marginBottom="8dp"/>
+
+            <Spinner
+                android:id="@+id/soundThemeSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:backgroundTint="@color/primary_yellow"
+                android:popupBackground="@color/surface" />
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginVertical="8dp"
+            android:background="#1AFFFFFF" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Haptic Feedback"
+                android:textColor="@color/white_pure"
+                android:textSize="18sp" />
+
+            <Switch
+                android:id="@+id/hapticSwitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:thumbTint="@color/primary_yellow"
+                android:trackTint="@color/white_muted" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/resetButton"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="32dp"
+        android:text="RESET ALL PROGRESS"
+        android:textColor="@color/danger_red"
+        android:textSize="14sp"
+        android:letterSpacing="0.1" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom|center_horizontal"
+        android:paddingBottom="16dp"
+        android:text="BRAIN SPRINT V1.0\nBY ANTIGRAVITY"
+        android:textColor="@color/white_pure"
+        android:textSize="10sp"
+        android:alpha="0.3"
+        android:lineSpacingExtra="4dp" />
+
+</LinearLayout>
