@@ -11,14 +11,6 @@ BrainZap is a fast-paced, brain-training Android game designed to test your refl
 - **High Score Tracking**: Keeps track of your personal bests.
 - **Premium UI**: Dark-themed, modern interface with smooth animations.
 
-## 📱 Screenshots
-
-| Home Screen | Gameplay | Game Over |
-|:-----------:|:--------:|:---------:|
-| ![Home](docs/screenshots/home.png) | ![Gameplay](docs/screenshots/gameplay.png) | ![Game Over](docs/screenshots/game_over.png) |
-
-*(Note: Please add actual screenshots to `docs/screenshots/` folder)*
-
 ## 🛠 Tech Stack
 
 - **Language**: Java
